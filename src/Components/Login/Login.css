@@ -1,0 +1,12 @@
+.login-btn{
+    border: 0;
+    padding: 1rem 7rem;
+    background: tomato;
+    color: #fff;
+    border-radius: 5rem;
+    cursor: pointer;
+    margin-left: 35%;
+    font-size: 1rem;
+    margin-top: 5rem;
+    font-size: 1.6rem;
+}

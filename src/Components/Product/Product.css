@@ -1,0 +1,22 @@
+.pd-btn{
+    padding: .5rem 1.5rem;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    background: tomato;
+    color: #fff;
+    border-radius: 5rem;
+    border: tomato;
+}
+.pd-name{
+    font-size:1.5rem;
+    font-weight: 600;
+}
+.pd-price{
+    font-size: 2rem;
+    color: tomato;
+    font-weight: 700;
+}
+.pd-weight{
+    font-size:1rem;
+    font-weight: 500;
+}

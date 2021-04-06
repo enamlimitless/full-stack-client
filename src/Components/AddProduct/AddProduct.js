@@ -13,7 +13,7 @@ const AddProduct = () => {
             productPrice: data.price,
             imageUrl: imageUrl
         }
-        const url = `http://localhost:5050/addProduct`
+        const url = 'https://powerful-everglades-26594.herokuapp.com/products'
         console.log(eventData)
         fetch(url, {
             method:'POST',

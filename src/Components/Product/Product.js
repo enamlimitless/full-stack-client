@@ -15,7 +15,7 @@ const Product = (props) => {
                         <span className="card-link pd-name">{productName}</span>
                         <span className="card-link pd-weight">{productWeight}</span><br/>
                         <span className="card-link pd-price mx-3">{productPrice}</span>
-                        <button onClick={() => props.handleAddOrder(props.product)} className="pd-btn mx-4">Buy Now</button>
+                        <button onClick={() => props.handleAddOrder(props.product[0])} className="pd-btn mx-4">Buy Now</button>
                     </div>
                     </div>
                 </div>
